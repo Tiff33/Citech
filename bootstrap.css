@@ -1,0 +1,123 @@
+body,p,label,legend,input{
+    font: normal 10px verdana, 'times new roman', arial ;
+}
+fieldset{
+    padding: 10px;
+    margin: 10px;
+    border: solid #0568cd 1px;
+    width: 50%;
+}
+legend{
+    font-weight: bold;
+    color: #0568cd;
+}
+h2{
+    font-weight: bold;
+    color: #0568cd;
+    margin: auto; /* Centrer le tableau en utilisant la marge automatique */
+    max-width: 80%; 
+}
+form label{
+    float: left;
+    width: 70px;
+    margin: 5px 0px 0px 0px;
+}
+form input{
+    margin: 5px 5px 0px 0px;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+table th{
+    color: white;
+    border:2px white white;
+    background-color:  #00d690;
+}
+table td{
+    border: 1px #19334e solid;
+    padding: 5px;
+}
+body {
+    background: linear-gradient(to right, #1d293e 20%, #00d690 80%);
+    /* Autres styles CSS */
+    font-family: Arial;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+table,form {
+    margin: auto; /* Centrer le tableau en utilisant la marge automatique */
+    max-width: 80%; /* Définir une largeur maximale pour le tableau */
+    border-collapse: collapse; /* Fusionner les bordures des cellules du tableau */
+    margin-top: 20px; /* Ajouter une marge en haut pour l'espacement */
+}
+table, th, td {
+    border: 1px solid white; /* Ajouter une bordure aux cellules et au tableau */
+}
+
+label{
+    color: white;
+}
+th{
+    width: 30%;
+    height: 30px;
+    color: white;
+    
+    
+}
+td{
+    background-color: white;
+}
+.submit{
+    padding: 10px;
+    margin: 5px;
+    font-size: 13px;
+    background-color: #00d690 ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 35px;
+}
+.reset{
+    padding: 10px;
+    margin: 5px;
+    font-size: 13px;
+    background-color:red ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    color: white;
+    /* Ajouter une animation pour le titre h2 */
+    animation: fadeInDown 1.5s ease-in-out;
+    margin-right:   -300px;
+}
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+button.new-button {
+    background-color: #00d690;
+    margin-left: 370px;
+   top: -100px;
+  
+
+}
+
